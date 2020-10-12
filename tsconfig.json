@@ -1,0 +1,60 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "types": [
+      "node",
+      "vue-sweetalert2"
+    ],
+    "paths": {
+      "@vuetify/*": [
+        "node_modules/vuetify/es5/*"
+      ],
+      "@/*": [
+        "src/*"
+      ],
+      "@onei/core/*": [
+        "src/core/*"
+      ],
+      "@shared/*": [
+        "src/shared/*"
+      ],
+      "@validator/*": [
+        "src/core/validators/*"
+      ],
+      "@onei/applications/*": [
+        "src/applications/*"
+      ]
+    },
+    "lib": [
+      "es2015",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "tests/**/*.ts",
+    "tests/**/*.tsx"
+  ],
+//  "exclude": [
+//    "*/**/*",
+//    "**/sweetalert2.d.ts"
+//  ]
+  "exclude": [
+    "node_modules"
+  ]
+}

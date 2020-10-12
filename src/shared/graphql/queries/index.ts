@@ -1,0 +1,38 @@
+import {GET_MARKET_QUERY} from "../queries/mercado"
+import {GET_CURRENCIES_QUERY} from "../queries/moneda"
+import {GET_MARKETS_CURRENCIES_QUERY} from "../queries/mercadoMoneda"
+import {GET_WEIGHING_TYPE_QUERY} from "../queries/ponderacion"
+import {GET_VARIETY_TYPE_QUERY,VARIEDADES_FILTRADAS} from "../queries/variedad"
+import {GET_CLASIFICADOR_QUERY,MANAGE_CLASSIFIER_MUTATION} from "../queries/clasificador"
+import {QUERY_GET_DPA} from "../queries/dpa"
+import {QUERY_GET_DPA_RESOURCE} from "../queries/dpaResource"
+import {QUERY_GET_TYPOLOGIES} from "../queries/tipologia"
+import {QUERY_GET_INCEDENCES} from "../queries/incidencias"
+import {QUERY_GET_OBSERVACIONES,QUERY_GET_OBSERVACIONES_BY_VARIEDAD} from "../queries/observaciones"
+import {QUERY_TIPOS_UNIDAD_MEDIDA} from "@shared/graphql/queries/unidad-medida";
+import {FILTER_YEARS_SELECT} from "../queries/captaciones"
+
+import {FILTER_ESTABLISHMENT, FILTER_ESTABLISHMENT_NO_REALTIONS,FILTER_ESTABLISHMENT_PENDING} from "../queries/establecimiento"
+export {
+  GET_MARKET_QUERY,
+  GET_CURRENCIES_QUERY,
+  GET_MARKETS_CURRENCIES_QUERY,
+  GET_WEIGHING_TYPE_QUERY,
+  GET_VARIETY_TYPE_QUERY,
+  GET_CLASIFICADOR_QUERY,
+  MANAGE_CLASSIFIER_MUTATION,
+  QUERY_GET_DPA,
+  QUERY_GET_DPA_RESOURCE,
+  FILTER_ESTABLISHMENT_PENDING,
+  FILTER_ESTABLISHMENT,
+  QUERY_GET_TYPOLOGIES,
+  FILTER_ESTABLISHMENT_NO_REALTIONS,
+  QUERY_GET_INCEDENCES,
+  QUERY_GET_OBSERVACIONES,
+  VARIEDADES_FILTRADAS,
+  QUERY_GET_OBSERVACIONES_BY_VARIEDAD,
+  FILTER_YEARS_SELECT,
+
+
+  QUERY_TIPOS_UNIDAD_MEDIDA
+};

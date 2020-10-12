@@ -1,0 +1,25 @@
+{
+  "schema": {
+    "request": {
+      "url": "http://10.58.12.251:9000/graphql",
+      "method": "POST",
+      "postIntrospectionQuery": true,
+      "options": {
+        "headers": {
+          "user-agent": "JS GraphQL"
+        }
+      }
+    }
+  },
+  "endpoints": [
+    {
+      "name": "Development",
+      "url": "http://10.58.12.251:9000/graphql",
+      "options": {
+        "headers": {
+          "user-agent": "JS GraphQL"
+        }
+      }
+    }
+  ]
+}

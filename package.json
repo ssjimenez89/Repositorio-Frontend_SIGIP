@@ -1,0 +1,56 @@
+{
+  "name": "@onei/frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "apollo-boost": "^0.1.7",
+    "axios": "^0.18.1",
+    "fscreen": "^1.0.2",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.9.2",
+    "jwt-decode": "^2.2.0",
+    "lodash": "^4.17.15",
+    "material-design-icons-iconfont": "^3.0.3",
+    "register-service-worker": "^1.4.0",
+    "validate.js": "^0.13.1",
+    "vue": "^2.5.18",
+    "vue-apollo": "^3.0.0-beta.16",
+    "vue-head": "^2.0.12",
+    "vue-i18n": "^7.8.0",
+    "vue-property-decorator": "^6.1.0",
+    "vue-resource": "^1.5.1",
+    "vue-router": "^3.0.1",
+    "vue-sweetalert2": "^3.0.3",
+    "vuebar": "0.0.20",
+    "vuetify": "^1.5.14",
+    "vuex": "^3.0.1",
+    "vuex-class": "^0.3.1",
+    "vuex-persistedstate": "^2.5.4",
+    "vuex-router-sync": "^5.0.0"
+  },
+  "devDependencies": {
+    "@mdi/font": "^4.9.95",
+    "@stencil/webpack": "^0.0.6",
+    "@types/fscreen": "^1.0.0",
+    "@types/graphql": "^0.13.1",
+    "@vue/cli-plugin-babel": "^3.4.1",
+    "@vue/cli-plugin-pwa": "^3.0.0-beta.15",
+    "@vue/cli-plugin-typescript": "^3.4.1",
+    "@vue/cli-service": "^3.4.1",
+    "sass": "^1.26.8",
+    "sass-loader": "^8.0.2",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "tslint-config-prettier": "^1.13.0",
+    "tslint-eslint-rules": "^5.3.1",
+    "vue-template-compiler": "^2.5.18"
+  },
+  "browserslist": [
+    "last 1 version"
+  ]
+}
